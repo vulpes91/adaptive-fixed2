@@ -33,7 +33,6 @@ img {
 	width: 1200px;
 	padding-left: 15px;
 	padding-right: 15px;
-	background-color: rgb(69, 138, 170);
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -167,22 +166,19 @@ img {
 
 @media (max-width:1400px) {
 	.container {
-		width: 1200px;
-		background-color: rgb(0, 226, 38);
+		width: 1200px; 
 	}
 }
 /* tablet */
 @media (max-width: 1199px) {
 	/* 870 контент плюс 2 по 15 падинги */
 	.container {
-		width: 900px;
-		background-color: rgb(146, 50, 50);
+		width: 900px; 
 	}
 
 	.post {
 		width: 420px;
-		height: auto;
-		background-color: rgb(226, 214, 147);
+		height: auto; 
 	}
 	.post-img-wrapper {
 		width: 120px;
@@ -198,14 +194,12 @@ img {
 /* mobile landscape */
 
 @media (max-width: 899px) {
-	.container {
-		background-color: rgb(34, 158, 90);
+	.container { 
 		width: 600px; /*15 + 570 + 15*/
 	}
 
 	.post {
-		width: 100%;
-		background-color: rgb(66, 42, 42);
+		width: 100%; 
 	}
 
 	.post-img-wrapper {
@@ -220,8 +214,7 @@ img {
 
 @media (max-width: 599px) {
 	.container {
-		width: 320px;
-		background-color: rgb(182, 209, 31);
+		width: 320px; 
 	}
 
 	.section-header {
